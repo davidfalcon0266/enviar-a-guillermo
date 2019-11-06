@@ -11,7 +11,6 @@ var mensaje = document.getElementById('mensaje');
 
 
 ciudad.addEventListener('blur', validarInputs);
-// fecha.addEventListener('blur', validarInputs);
 fecha2.addEventListener('blur', validarInputs);
 
 
