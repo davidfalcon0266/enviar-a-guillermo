@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fondo {
+    background: #050b53;
+    padding: 1px;
+    width: 100%;
+    height: 40px;
+}
+
+.contenedor {
+    width: 100%;
+    padding-left: 30%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.verde {
+    color: rgb(33, 106, 190);
+}
+
+li {
+    display: inline;
+    margin: 15px 10px 0 0;
+    /* border-right: 1px solid #ffffff; */
+}
+
+.li li:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/* li {
+    float: right;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: end;
+} */
+
+.botonRojo {
+    display: block;
+    padding: 10px;
+    margin-top: -80px;
+    margin-left: 50px;
+    background-color: rgb(209, 32, 32);
+    font-weight: 700;
+}
+
+.botonRojo:hover {
+    background-color: red;
+}
+
+.fondo-completo {
+    background-color: rgb(4, 4, 56);
+    padding: 13px 150px;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.navegacion a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.principal {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.fondo-img-principal {
+    margin-top: -10px;
+    background-image: url(/img/fondo1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    width: 40%;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.titulo1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.btn {
+    margin-top: 140px;
+    display: block;
+    padding: 15px 25px;
+    float: right;
+    margin-right: 60px;
+    background: transparent;
+    /* border: none; */
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #5aa5eb;
+}
+
+.formulario {
+    position: relative;
+    width: 80%;
+    height: 530px;
+    margin: 0 auto;
+    top: -100px;
+    background: rgb(39, 39, 116);
+    padding: 20px 0 20px 20px;
+}
+
+.container {
+    /* background: rgb(39, 39, 116); */
+    width: 95%;
+}
+
+.titulo2 h3 {
+    font-size: 1.4em;
+    font-weight: 100;
+    border-bottom: 1px solid #ffffff;
+}
+
+.parrafo1 {
+    margin-top: 20px;
+}
+
+.parrafo1 p {
+    margin-left: 30px;
+}
+
+.parrafo::before {
+    content: "";
+    position: absolute;
+    border: 2px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 60px;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs,
+.derecha {
+    display: block;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.derecha {
+    margin-left: 20px;
+}
+
+input .seudo .segunda {
+    margin-top: 40px !important;
+}
+
+
+/* .derecha{
+    display: block;
+
+} */
+
+.seudo {
+    width: 100%;
+    padding: 15px;
+    line-height: 1;
+    margin: 10px 0;
+    color: blue;
+}
+
+.inputs::after {
+    content: "ORIGEN";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 115px;
+    left: 37px;
+    color: rgb(75, 19, 206);
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.radios {
+    margin-top: 18px;
+}
+
+.radio {
+    margin-left: 60px;
+    color: #ffffff;
+}
+
+.btn-red {
+    margin-top: 20px;
+    display: block;
+    padding: 15px 60px;
+    background-color: rgb(233, 27, 130);
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.btn-red:hover {
+    background-color: rgb(143, 12, 78);
+}
+
+
+/* .inputs .fecha::after {
+    content: 'hola';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    background: salmon;
+} */
+
+.borde {
+    width: 90%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    padding: 20px;
+    box-shadow: 3px 3px 15px blue;
+}
+
+.border-texto {
+    color: #2f3bc0;
+    margin: 10px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.tema3 {
+    margin-right: 3px;
+}
+
+.asiento {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 10px 30px 0 0;
+}
+
+.silla {
+    color: #2f3bc0;
+    border-radius: 100%;
+    padding: 10px;
+    background: #e710a7;
+}
+
+.boton {
+    margin-top: 70px;
+}
+
+.btn-azul {
+    margin-top: 20px;
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(69, 26, 189);
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.btn-azul:hover {
+    background-color: #050b53;
+    color: red;
+}
+
+.compra {
+    color: #1825bb;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.borde-azul {
+    width: 90%;
+}
