@@ -90,7 +90,7 @@ li {
 
 .fondo-img-principal {
     margin-top: -10px;
-    background-image: url(/img/fondo1.jpg);
+    background-image: url(img/fondo1.jpg);
     height: 100vh;
     width: 100%;
     background-position: center center;

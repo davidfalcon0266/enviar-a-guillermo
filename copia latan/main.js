@@ -62,10 +62,20 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
 
 
             setTimeout(ocultar, 3000);
-            e.preventDefault();
 
             document.getElementById('formulario').reset();
+        } else {
+            mensaje.style.display = "block";
+            mensaje.innerHTML = "debes completar los campos";
+            mensaje.style.width = "70%";
+            mensaje.style.textAlign = "center";
+            mensaje.style.margin = "0 auto";
+            mensaje.style.padding = "10px";
+            mensaje.style.fontSize = "1.3em";
+            mensaje.style.border = "2px solid red";
+
         }
+        e.preventDefault();
 
 
     }
@@ -74,4 +84,4 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
 
 function ocultar() {
     mensaje.style.display = "none";
-}
+};
