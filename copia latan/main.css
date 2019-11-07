@@ -316,3 +316,48 @@ input .seudo .segunda {
 .borde-azul {
     width: 90%;
 }
+
+.contenedor-abajo {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 240px;
+}
+
+.redondo {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: #5aa5eb;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.icono {
+    margin-top: 20px;
+}
+
+.uno {
+    background: #D41347;
+}
+
+.dos {
+    background-color: #E4B300;
+}
+
+.tres {
+    background-color: #6B8F25;
+}
+
+.cuatro {
+    background-color: #D00044;
+}
+
+.cinco {
+    background-color: #AC1895;
+}
+
+.tema5 {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
